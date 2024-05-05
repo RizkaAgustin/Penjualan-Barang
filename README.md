@@ -1,6 +1,6 @@
 ## Tentang Aplikasi
 
-Aplikasi POS atau point of sales adalah aplikasi yang digunakan untuk mengelola transaksi pada sebuah toko atau oleh kasir. Aplikasi ini dibuat menggunakan Laravel v8.* dan minimal PHP v7.4 jadi apabila pada saat proses instalasi atau penggunaan terdapat error atau bug kemungkinan karena versi dari PHP yang tidak support.
+Aplikasi Penjualan Barang adalah aplikasi yang digunakan untuk mengelola transaksi pada sebuah toko atau oleh kasir. Aplikasi ini dibuat menggunakan Laravel v8.* dan minimal PHP v7.4 jadi apabila pada saat proses instalasi atau penggunaan terdapat error atau bug kemungkinan karena versi dari PHP yang tidak support.
 
 ### Beberapa Fitur yang tersedia:
 - Manajemen Kategori Produk
@@ -28,15 +28,10 @@ Aplikasi POS atau point of sales adalah aplikasi yang digunakan untuk mengelola 
 - User (Administrator, Kasir)
 - Grafik ChartJS pada Dashboard
 
-## Instalasi
+### Instalasi
 #### Via Git
-```bash
-git clone https://github.com/sandinur157/tuturial-membuat-aplikasi-point-of-sales.git
-```
-
-### Download ZIP
-[Link](https://github.com/sandinur157/tuturial-membuat-aplikasi-point-of-sales/archive/refs/heads/main.zip)
-
+```bash 
+git clone https://github.com/RizkaAgustin/Penjualan-Barang.git```
 ### Setup Aplikasi
 Jalankan perintah 
 ```bash
@@ -55,17 +50,9 @@ Konfigurasi file .env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=example_app
+DB_DATABASE=penjualan_barang
 DB_USERNAME=root
 DB_PASSWORD=
-```
-Opsional
-```bash
-APP_NAME=Laravel
-APP_ENV=local
-APP_KEY=base64:QGRW4K7UVzS2M5HE2ZCLlUuiCtOIzRSfb38iWApkphE=
-APP_DEBUG=true
-APP_URL=http://example-app.test
 ```
 Generate key
 ```bash
