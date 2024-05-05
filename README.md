@@ -30,7 +30,7 @@ Aplikasi Penjualan Barang adalah aplikasi yang digunakan untuk mengelola transak
 
 ### Instalasi
 #### Via Git
-```bash 
+```bash
 git clone https://github.com/RizkaAgustin/Penjualan-Barang.git```
 
 ### Setup Aplikasi
