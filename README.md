@@ -28,8 +28,8 @@ Aplikasi Penjualan Barang adalah aplikasi yang digunakan untuk mengelola transak
 - User (Administrator, Kasir)
 - Grafik ChartJS pada Dashboard
 
-### Instalasi
-#### Via Git
+## Instalasi
+### Via Git
 ```bash
 git clone https://github.com/RizkaAgustin/Penjualan-Barang.git```
 
